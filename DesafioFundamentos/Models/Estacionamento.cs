@@ -70,11 +70,13 @@ namespace DesafioFundamentos.Models
                 // Implementado!
                 veiculos.Remove(placa);
 
-                Console.WriteLine($"O veículo {placa} foi saiu do estacionamento e o preço total foi de: R$ {valorTotal}");
+                Console.WriteLine($"O veículo {placa} foi saiu do estacionamento e o preço total foi de: R$ {valorTotal}, aperte qualquer tecla para voltar ao menu inicial:");
+                Console.ReadLine();
             }
             else
             {
-                Console.WriteLine("Desculpe, esse veículo não está estacionado aqui. Confira se digitou a placa corretamente");
+                Console.WriteLine("Desculpe, esse veículo não está estacionado aqui. Confira se digitou a placa corretamente, aperte qualquer tecla para voltar ao menu inicial:");
+                Console.ReadLine();
             }
         }
 
