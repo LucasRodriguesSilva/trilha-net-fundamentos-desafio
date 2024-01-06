@@ -70,7 +70,7 @@ namespace DesafioFundamentos.Models
                 // Implementado!
                 veiculos.Remove(placa);
 
-                Console.WriteLine($"O veículo {placa} foi saiu do estacionamento e o preço total foi de: R$ {valorTotal}, aperte qualquer tecla para voltar ao menu inicial:");
+                Console.WriteLine($"O veículo {placa.ToUpper()} saiu do estacionamento e o preço total foi de: R$ {valorTotal}, aperte qualquer tecla para voltar ao menu inicial:");
                 Console.ReadLine();
             }
             else
